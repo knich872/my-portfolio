@@ -1,3 +1,20 @@
 <div class="container">
-  <h1>Contact me here</h1>
+  <form action="action_page.php">
+
+    <label for="fname">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Japan</option>
+      <option value="canada">USA</option>
+      <option value="usa">Other</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input class="btn btn-blue" type="submit" value="Submit">
+
+  </form>
 </div>

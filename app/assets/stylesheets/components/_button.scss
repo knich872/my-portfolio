@@ -1,0 +1,22 @@
+.blue-btn {
+  background: $button-blue;
+  color: rgb(41, 41, 41);
+  bottom: 0;
+  justify-content: baseline;
+}
+
+.underline-btn {
+  margin-top: 50px;
+  border-bottom: 5px solid rgb(39, 39, 39);
+  border-radius: 5px;
+}
+
+.blue-btn:hover {
+  box-shadow: 1px, 1px, 5px, lightgrey;
+  color: black;
+}
+
+.underline-btn:hover {
+  box-shadow: 1px, 1px, 5px, lightgrey;
+  border-bottom: 5px solid black;
+}
